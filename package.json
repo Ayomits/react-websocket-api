@@ -1,0 +1,39 @@
+{
+  "name": "react-websocket-api",
+  "version": "1.0.2",
+  "description": "Infinite scroll component under the ref callback",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "types:check": "npx tsc --build",
+    "build": "npx tsc --build"
+  },
+  "keywords": [
+    "react",
+    "react-hook",
+    "infinite-scroll",
+    "keyboard",
+    "typescript",
+    "javascript"
+  ],
+  "author": "Ayo",
+  "repository": "https://github.com/Ayomits/react-inf-scroller",
+  "license": "ISC",
+  "dependencies": {
+    "reconnecting-websocket": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "react": "^16.8",
+    "typescript": "^5.8.3"
+  }
+}
