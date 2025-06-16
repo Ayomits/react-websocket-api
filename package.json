@@ -1,7 +1,7 @@
 {
   "name": "react-websocket-api",
-  "version": "1.0.4",
-  "description": "Infinite scroll component under the ref callback",
+  "version": "1.0.5",
+  "description": "A factory for creating websocket connections",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
